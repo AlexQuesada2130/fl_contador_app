@@ -7,7 +7,17 @@ class HomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.purpleAccent,
-      body: Center(child: const Text('Ya no soy vini')),
+      appBar: AppBar(title: Text('GeoCasetas Maricon'), elevation: 10.0),
+      body: Center(
+        child: const Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: <Widget>[
+            Text('Vinicius mono'),
+            SizedBox(width: 50.0),
+            Text('de mierda'),
+          ],
+        ),
+      ),
     );
   }
 }
