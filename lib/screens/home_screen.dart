@@ -13,7 +13,7 @@ class HomeScreen extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             Text('Vinicius mono'),
-            SizedBox(width: 50.0),
+            SizedBox(height: 50.0),
             Text('de mierda'),
           ],
         ),
