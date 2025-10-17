@@ -12,9 +12,9 @@ class HomeScreen extends StatelessWidget {
         child: const Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            Text('Vinicius mono'),
+            Text('Hola'),
             SizedBox(height: 50.0),
-            Text('de mierda'),
+            Text('Mundo'),
           ],
         ),
       ),
